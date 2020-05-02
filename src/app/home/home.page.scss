@@ -9,10 +9,10 @@ ion-content {
       width: 595px;
       height: 540px;
       .header-table {
-        background-color: #18AC52;
+        background-color: #171310;
         margin: 2%;
         width: 96%;
-        color: #ffffff;
+        color: #fff;
         th, td {
           text-align: left;
           padding: 5px;
@@ -31,6 +31,7 @@ ion-content {
         margin-top: 20px;
       }
       .subheader-table {
+        color: #999;
         margin: 2%;
         width: 96%;
         td {
@@ -53,6 +54,7 @@ ion-content {
         }
       }
       .detail-table {
+        color: #999;
         margin: 2%;
         width: 96%;
         border-top: 2px solid #CCC;
@@ -83,30 +85,30 @@ ion-content {
   }
 }
 
-// #container {
-//   text-align: center;
+#container {
+  text-align: center;
 
-//   position: absolute;
-//   left: 0;
-//   right: 0;
-//   top: 50%;
-//   transform: translateY(-50%);
-// }
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
-// #container strong {
-//   font-size: 20px;
-//   line-height: 26px;
-// }
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
 
-// #container p {
-//   font-size: 16px;
-//   line-height: 22px;
+#container p {
+  font-size: 16px;
+  line-height: 22px;
 
-//   color: #8c8c8c;
+  color: #8c8c8c;
 
-//   margin: 0;
-// }
+  margin: 0;
+}
 
-// #container a {
-//   text-decoration: none;
-// }
+#container a {
+  text-decoration: none;
+}

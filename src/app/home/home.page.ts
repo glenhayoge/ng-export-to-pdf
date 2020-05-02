@@ -9,6 +9,7 @@ import { FileOpener } from '@ionic-native/file-opener/ngx';
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
+  providers:[FileOpener, File]
 })
 export class HomePage {
 
